@@ -4,7 +4,7 @@
 Location: Warsaw, Poland<br/>
 Phone: +48 572 047 501<br/>
 E-mail: ekatarina.starovoytova@gmail.com<br/>
-GitHub: [https://github.com/KatsiarynaSt?tab=repositories] (KatsiarynaSt)<br/>
+GitHub: [KatsiarynaSt](https://github.com/KatsiarynaSt?tab=repositories)<br/>
 Discord: KatsiarynaSt#5444
 ## About Me
 I have worked in sales and customer acquisition for more than seven years. Currently I want to change my profession. That's why I'm studying RSSchool<br/>
