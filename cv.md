@@ -18,6 +18,7 @@ Git<br/>
 ## Experience
 Company: Adevinta
 Position: Sales Manager
+## Code Example
 ```
 <script>
         function onClick(){
