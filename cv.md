@@ -18,6 +18,41 @@ Git<br/>
 ## Experience
 Company: Adevinta
 Position: Sales Manager
+```
+<script>
+        function onClick(){
+            // 1. chack that function is working
+            // print somethin in log
+            console.log('name');
+            // 2. get acces to input
+            // declare a variable and assigned the value of input element from mu marckdown
+            let input = document.getElementById('name');
+            // 3. check if I got right element
+            console.log('name element',input);
+            //4. declare a variable and assigned a value of input.value 
+            let value = input.value;
+            //5. check if I got right value
+            console.log('name value',value);
+            //6. declare a constanta 
+            const hello = 'hello';
+            // 7. declare a variable hello on my screen
+            console.log(hello + ' ' + value);
+            // 8. show the greeting
+            // 8.1 get the div where I want to wrigt gritting
+            let gritting = document.getElementById('gritting');
+            console.log('gritting element', gritting);
+            // 8.2 wrigt gritting in the div
+            gritting.innerHTML = 'Hello' + ' ' + input.value
+            // 9. hide the form
+            // 9.1 get the div wich I want to hide
+            let form = document.getElementById ('form')
+            // 9.2 check if I got right element
+            console.log('form', form);
+            //9.3 assigh class hidden to the form
+            form.className = 'hidden';
+        }
+    </script> 
+```
 ## Education
 BA in Economics
 ## Languages
