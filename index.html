@@ -6,5 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body></body>
+<style>
+    .layot{
+        font-family: Arial;
+        background-color:lavender;
+    }
+    .text{
+        width: 700px;
+        height: 100px;
+       }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    }
+
+</style>
+<body>
+    <div class="layot">
+        <img src="file:///Users/ekaterinastarovojtova/Desktop/2022-12-06%2019.17.26.png" alt="it's me" width="300 px" height="400px">
+        <h1>Katsiaryna Staravoitava</h1>
+        <nav>
+            <ul>
+              <li><a href="#contact">Contact info</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#code">Code Example</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#language">Languages</a></li>
+            </ul>
+          </nav>
+        <h2 id="contact">Contact info</h2>
+        <ul>
+            <li>Location: Warsaw, Poland</li>
+            <li>Phone: +48 572 047 501</li>
+            <li>E-mail: ekatarina.starovoytova@gmail.com</li>
+            <li>GitHub: KatsiarynaSt</li>
+            <li>Discord: KatsiarynaSt#5444</li>
+        </ul>
+        <h2 id="about">About Me</h2>
+        <main>
+        <p class="text">I have worked in sales and customer acquisition for more than seven years. Currently I want to change my profession. That's why I'm studying RSSchool
+            I am interested in working for companies that value and empower employees and engage in honesty and transparency. I’m looking forward to working in a company with a strong, united team of professionals where you can acquire new skills, share your experiences, and achieve your career goals.</p>
+            </main>
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li>Sales</li>
+                <li>HTML basic</li>
+                <li>CSS basic</li>
+                <li>JS basic</li>
+                <li>Git</li>
+            </ul>
+            <h2 id="experience">Experience</h2>
+            <p>Company: Adevinta
+                Position: Sales Manager</p>
+            <h2 id="code">Code Example</h2>
+            <pre>
+                <code>
+                    function onClick(){
+                        // 1. chack that function is working
+                        // print somethin in log
+                        console.log('name');
+                        // 2. get acces to input
+                        // declare a variable and assigned the value of input element from mu marckdown
+                        let input = document.getElementById('name');
+                        // 3. check if I got right element
+                        console.log('name element',input);
+                        //4. declare a variable and assigned a value of input.value 
+                        let value = input.value;
+                        //5. check if I got right value
+                        console.log('name value',value);
+                        //6. declare a constanta 
+                        const hello = 'hello';
+                        // 7. declare a variable hello on my screen
+                        console.log(hello + ' ' + value);
+                        // 8. show the greeting
+                        // 8.1 get the div where I want to wrigt gritting
+                        let gritting = document.getElementById('gritting');
+                        console.log('gritting element', gritting);
+                        // 8.2 wrigt gritting in the div
+                        gritting.innerHTML = 'Hello' + ' ' + input.value
+                        // 9. hide the form
+                        // 9.1 get the div wich I want to hide
+                        let form = document.getElementById ('form')
+                        // 9.2 check if I got right element
+                        console.log('form', form);
+                        //9.3 assigh class hidden to the form
+                        form.className = 'hidden';
+                    }
+                </code>
+            </pre>
+            <h2 id="education">Education</h2>
+            <p>BA in Economics</p>
+            <h2 id="courses">Courses</h2>
+            <p>PS School</p>
+            <h2 id="language">Languages</h2>
+            <ul>
+                <li>Belorusian (native)</li>
+                <li>Russian (native)</li>
+                <li>English B1(in progress)</li>
+                <li>Polish A2 (in progress)</li>
+            </ul>
+            <footer>
+
+            </footer>
+    </div>
+</body>
 </html>
